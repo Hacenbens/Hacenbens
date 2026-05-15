@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: 'ERP Agentic RAG System',
     tagline: 'Multi-tenant natural-language queries over live ERP data',
     description:
-      'Role-aware Q&A system that classifies user intent and routes to a RAG pipeline, a live SQL pipeline, or a hybrid of both. Secured by a 5-layer middleware stack — logging, JWT RS256 auth, rate limiting, RBAC, and Prometheus metrics. Built for production multi-tenant ERP environments.',
+      'Role-aware Q&A system that routes natural-language queries to a RAG pipeline, SQL pipeline, or both. Secured by a 5-layer middleware stack (JWT RS256, RBAC, rate limiting, Prometheus) for production multi-tenant ERP use.',
     techStack: ['Python', 'FastAPI', 'PostgreSQL', 'Gemini', 'LangChain', 'Docker', 'Prometheus'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens',
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: 'LoopStack — Automation Hub',
     tagline: 'AI-powered workflow automation platform for enterprises',
     description:
-      'Full-stack automation platform combining n8n orchestration with custom AI agents. Ships with a workflow execution auditor that parses n8n execution JSON, detects AI nodes, estimates token costs, identifies slow nodes, and generates a clean PDF report — all from a single Python script.',
+      'n8n automation platform with custom AI agent integrations. Includes an execution auditor that parses workflow JSON, estimates token costs, identifies slow nodes, and generates a PDF report.',
     techStack: ['n8n', 'Python', 'React', 'TypeScript', 'Docker', 'FastAPI'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: 'Customer Churn ML Pipeline',
     tagline: 'Orchestrated churn prediction with full experiment tracking',
     description:
-      'End-to-end ML pipeline with automated feature engineering, model training, evaluation, and versioning. Dagster handles scheduling and orchestration; MLflow tracks every experiment run, parameter set, and model artifact — making the retraining loop fully reproducible and auditable.',
+      'End-to-end churn prediction pipeline — Dagster orchestrates the asset graph, MLflow tracks every run and artifact, making the retraining loop fully reproducible.',
     techStack: ['Python', 'Dagster', 'MLflow', 'scikit-learn', 'PostgreSQL', 'Docker'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens',
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     title: 'SmartCampus Companion',
     tagline: 'Cross-platform mobile app for university campus life',
     description:
-      'Flutter application providing real-time campus services, scheduling, and resource management in one unified interface. Firebase Realtime Database powers live sync; a FastAPI backend handles business logic, auth, and push notifications.',
+      'Cross-platform Flutter app for campus scheduling, resource management, and live notifications — Firebase for real-time sync, FastAPI for backend logic.',
     techStack: ['Flutter', 'Firebase', 'FastAPI', 'PostgreSQL'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens',
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     title: 'ChronicCare',
     tagline: 'AI-assisted chronic disease management — national hackathon',
     description:
-      'Built at a national health-tech hackathon. Backend with patient data pipelines, an AI nurse assistant for care recommendations, and Google Calendar OAuth for automated appointment scheduling. Designed for low-resource clinical environments.',
+      'Health-tech hackathon build — patient data pipelines, AI nurse assistant for care recommendations, and Google Calendar OAuth for automated scheduling.',
     techStack: ['Python', 'FastAPI', 'Firebase', 'PostgreSQL', 'Google APIs', 'OpenAI'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens',
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     title: 'This Portfolio',
     tagline: 'The site you are currently on',
     description:
-      'Cyberpunk-themed developer portfolio built with a 5-agent Claude Code system. Each agent owned a specific layer: design system, layout, animations, content, and QA. The architecture is documented in AGENTS.md and TASK.md.',
+      'Cyberpunk-themed portfolio built with a multi-agent Claude Code workflow — design, layout, animations, content, and QA each owned by a dedicated agent.',
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     liveUrl: null,
     githubUrl: 'https://github.com/Hacenbens/Hacenbens',

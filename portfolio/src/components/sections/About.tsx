@@ -38,7 +38,7 @@ export function About(): JSX.Element {
           {/* Avatar card */}
           <div className="avatar-card">
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Hacen Bensaad"
               fill
               className="avatar-photo"

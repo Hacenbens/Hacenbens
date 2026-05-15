@@ -24,8 +24,8 @@ export const personal: PersonalInfo = {
   ],
   tagline: 'I build the systems that turn autonomous agents into real products.',
   bio: [
-    "I'm a software and AI systems engineer with a focus on production-grade agentic pipelines, multi-tenant backends, and intelligent automation. My work spans the full stack — from designing RAG pipelines with role-aware access control, to orchestrating ML workflows with Dagster and MLflow, to shipping Shopify integrations and n8n automation hubs that enterprises actually run in production.",
-    "What drives me is the gap between AI demos and AI systems. I care about the middleware, the observability, the failure modes — the parts that don't show up in notebooks. Whether I'm competing in a health-tech hackathon or building an ERP query engine, I work with the same principle: if it can't hold up under real load, it's not done.",
+    "AI systems engineer focused on production-grade agentic pipelines, multi-tenant backends, and intelligent automation — from RAG pipelines and MLOps workflows to Shopify integrations and n8n automation hubs.",
+    "I care about the gap between AI demos and AI systems: the middleware, observability, and failure modes that don't show up in notebooks. If it can't hold up under real load, it's not done.",
   ],
   email: 'hcnbns@gmail.com',
   github: 'https://github.com/Hacenbens',

@@ -16,12 +16,12 @@ export const experience: Experience[] = [
     endDate: 'Present',
     location: 'Algeria · Remote',
     description:
-      'Building an AI automation agency that designs and deploys intelligent workflows and agentic systems for enterprise clients. Responsible for architecture, client delivery, and the core automation platform.',
+      'AI automation agency — designing and deploying intelligent workflows and agentic systems for enterprise clients.',
     achievements: [
-      'Designed and shipped a multi-agent ERP query system (RAG + SQL hybrid) with JWT RS256 auth, RBAC middleware, and Prometheus metrics — deployed for production ERP use',
-      'Built an n8n execution auditor that parses workflow JSON, estimates AI token costs, surfaces bottlenecks, and generates PDF reports — reducing debugging time by ~60%',
-      'Architected Shopify automation pipelines handling product imports, order processing, and content scheduling for 3 e-commerce clients',
-      'Implemented a churn prediction ML pipeline using Dagster for orchestration and MLflow for experiment tracking, cutting retraining iteration cycles from days to hours',
+      'Shipped a multi-agent ERP query system (RAG + SQL hybrid) with JWT RS256 auth, RBAC, and Prometheus metrics',
+      'Built an n8n execution auditor that estimates AI token costs and generates PDF reports — cutting debug time by ~60%',
+      'Architected Shopify automation pipelines (product imports, order processing, content scheduling) for 3 clients',
+      'Implemented a churn prediction ML pipeline with Dagster + MLflow, cutting retraining cycles from days to hours',
     ],
   },
   {
@@ -31,12 +31,12 @@ export const experience: Experience[] = [
     endDate: 'Dec 2024',
     location: 'Remote',
     description:
-      'Delivered end-to-end software and AI integration projects for clients across e-commerce, health tech, and SaaS verticals. Focus on FastAPI backends, Flutter mobile apps, and LLM-powered automation.',
+      'End-to-end software and AI projects for e-commerce, health tech, and SaaS clients — FastAPI backends, Flutter apps, and LLM automation.',
     achievements: [
-      'Built a cross-platform SmartCampus Companion app in Flutter with real-time scheduling, resource management, and Firebase backend sync — used by 500+ students',
-      'Developed a RAG-based document Q&A service over ERP manuals, reducing support ticket volume by integrating semantic search with role-scoped document access',
-      'Delivered REST APIs with async task queues (Celery + Redis) for a SaaS client, achieving sub-200ms p95 latency under 1K concurrent users',
-      'Integrated Google Calendar OAuth and AI nurse assistant flows for ChronicCare, a chronic disease management platform built at a national health-tech hackathon',
+      'Built SmartCampus Companion (Flutter + Firebase) — real-time scheduling and resource management for 500+ students',
+      'Developed a RAG document Q&A service over ERP manuals with role-scoped semantic search',
+      'Delivered async REST APIs (Celery + Redis) achieving sub-200ms p95 latency under 1K concurrent users',
+      'Built ChronicCare at a national health-tech hackathon — AI nurse assistant with Google Calendar OAuth integration',
     ],
   },
   {
@@ -46,12 +46,12 @@ export const experience: Experience[] = [
     endDate: 'May 2023',
     location: 'Algeria',
     description:
-      'Led technical development across university projects and competitive hackathons, building production-quality systems under tight time constraints across IoT, health tech, and AI journalism verticals.',
+      'University projects and competitive hackathons — production-quality systems across IoT, health tech, and AI verticals under tight constraints.',
     achievements: [
-      'Led backend and ML engineering for a biohackathon project (ChronicCare) — designed patient data pipeline, Firebase integration, and AI-assisted care recommendation engine',
-      'Prototyped a 5G edge IoT architecture for a competitive hackathon, designing real-time sensor data routing and edge processing layer',
-      'Built an AI journalism assistant using LLM APIs for automated article drafting, fact enrichment, and source summarization',
-      'Completed Big Data track coursework (Spark, HDFS, distributed computing) and delivered a distributed book and smartphone catalog management system',
+      'Led backend and ML for ChronicCare (biohackathon) — patient data pipeline, Firebase, and AI care recommendations',
+      'Prototyped a 5G edge IoT architecture with real-time sensor routing and edge processing',
+      'Built an AI journalism assistant for article drafting, fact enrichment, and source summarization',
+      'Delivered a distributed catalog system as part of Big Data coursework (Spark, HDFS)',
     ],
   },
 ];

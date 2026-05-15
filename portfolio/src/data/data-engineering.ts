@@ -12,7 +12,7 @@ export const dataShowcase: DataShowcase[] = [
     id: 'erp-rag-pipeline',
     title: 'ERP Agentic Query Pipeline',
     description:
-      'Multi-tenant query engine that classifies natural-language questions as RAG, SQL, or Hybrid, then routes them through parallel agents. The RAG branch performs vector search over ERP documentation; the SQL branch uses an LLM to generate tenant-scoped queries validated before execution. Results are merged by a HybridAgent and returned in under a second.',
+      'Multi-tenant query engine that classifies natural-language input as RAG, SQL, or Hybrid and routes through parallel agents. Results are merged and returned in under a second, secured by a 5-layer middleware stack.',
     tools: ['FastAPI', 'PostgreSQL', 'Gemini', 'LangChain', 'pgvector', 'Prometheus'],
     stats: [
       { label: 'Query modes',      value: 'RAG · SQL · Hybrid' },
@@ -26,7 +26,7 @@ export const dataShowcase: DataShowcase[] = [
     id: 'churn-ml-pipeline',
     title: 'Customer Churn ML Pipeline',
     description:
-      'Fully orchestrated machine learning pipeline for churn prediction. Dagster manages the asset graph — raw data ingestion, feature engineering, model training, evaluation, and registration. MLflow tracks every run: hyperparameters, metrics, and model artifacts are versioned and comparable across experiments, making the retraining loop auditable and reproducible.',
+      'Orchestrated churn prediction pipeline — Dagster manages the full asset graph from ingestion to model registration. MLflow tracks every run, making the retraining loop auditable and reproducible.',
     tools: ['Dagster', 'MLflow', 'scikit-learn', 'Python', 'PostgreSQL', 'Docker'],
     stats: [
       { label: 'Pipeline stages',   value: '6 Dagster assets' },
@@ -40,7 +40,7 @@ export const dataShowcase: DataShowcase[] = [
     id: 'n8n-automation-platform',
     title: 'Workflow Automation Platform',
     description:
-      'Enterprise-grade automation hub built on n8n with custom AI agent integrations. Workflows handle Shopify product pipelines, order processing, and content scheduling. The execution auditor layer parses any workflow run — detecting AI nodes, calculating token costs, identifying the slowest nodes, and generating a PDF report — giving teams full cost and performance visibility.',
+      'n8n-based automation hub with custom AI agents for Shopify pipelines and content scheduling. The execution auditor detects AI nodes, estimates token costs, and generates a PDF report per run.',
     tools: ['n8n', 'Python', 'FastAPI', 'React', 'Docker', 'OpenAI'],
     stats: [
       { label: 'Shopify workflows', value: 'Product · Order · Content' },

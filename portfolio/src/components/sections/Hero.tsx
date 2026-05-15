@@ -75,9 +75,6 @@ export function Hero(): JSX.Element {
 
             <p className="hero-tagline">
               <span className="hi">{personal.tagline}</span>
-              <br />
-              I work the gap between AI demos and AI systems — middleware, observability,
-              the failure modes that don&apos;t show up in notebooks.
             </p>
 
             <div className="hero-actions">
